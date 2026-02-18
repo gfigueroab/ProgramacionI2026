@@ -1,0 +1,43 @@
+1. ¿Qué es GIT?
+Git es un sistema de control de versiones distribuido. Su función principal es administrar las distintas versiones de un programa a medida que el proyecto crece y cambia con el tiempo. Funciona como una «máquina del tiempo» que permite navegar entre cualquier punto de la historia del código, ver quién hizo cambios y revertirlos si es necesario.
+
+
+2. ¿Cuáles son los comandos más importantes y para qué sirven?
+
+git init: Inicializa un nuevo repositorio en un proyecto para empezar a usar Git.
+
+git add: Pasa los archivos del directorio de trabajo al staging area (área de preparación).
+
+git status: Muestra el estado actual de los archivos (si están siendo seguidos, modificados o listos para guardar).
+
+git commit: Guarda los cambios que están en el staging area en el repositorio, creando un "snapshot" o foto del código.
+
+git push: Sube los cambios del repositorio local a un repositorio remoto (como GitHub).
+
+git pull: Trae los cambios más recientes desde un repositorio remoto al equipo local.
+
+git clone: Crea una copia exacta de un repositorio remoto en tu computadora.
+
+git log: Muestra el historial de todos los cambios (commits) realizados.
+
+
+3. ¿Cuál es la diferencia entre GIT y Github?
+
+Git es la herramienta (el software) que instalas localmente para controlar las versiones de tu código.
+
+GitHub es una plataforma web (un servidor remoto) que aloja proyectos que utilizan Git. Permite subir tu código a la nube para compartirlo, colaborar con otros desarrolladores y tener un respaldo en internet.
+
+
+4. Enumeración de los comandos para subir cambios a un repositorio
+
+git add . (o el nombre del archivo) para preparar los cambios.
+
+git commit -m «mensaje» para confirmar y guardar el cambio localmente.
+
+git remote add origin [URL] (solo la primera vez, para vincular el repositorio remoto).
+
+git push origin master para enviar finalmente los cambios a la nube.
+
+
+5. ¿Qué es un branch?
+Un branch (o rama) es una versión alternativa del código dentro del mismo proyecto. Permite crear una línea de desarrollo separada (por ejemplo, para probar una función nueva como un «login») sin afectar la línea de trabajo principal (llamada master). Puedes trabajar en esa rama, hacer cambios y luego volver a la rama principal cuando desees.
